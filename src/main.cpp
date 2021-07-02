@@ -10,6 +10,7 @@ void setup()
   Serial.begin(9600);                       // Open serial port to computer
   while(!Serial);
   Serial.println("Input AT commands");
+  
 }
 
 void read_line(char* buffer, int bufsize)
